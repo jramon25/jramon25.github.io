@@ -1,0 +1,52 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2em 10% 2em 40px;
+    padding: 1em;
+    background-color:rgba(45, 42, 236, 0.952);
+    border: 1px dotted rgb(128, 128, 128);
+}
+#titulo{
+    text-align: center;
+    background: rgb(167, 29, 98);
+    color:rgb(13, 25, 63);
+    box-shadow:rgb(224, 218, 236);
+    border-radius: 10px;
+    padding: 0.025em 0.1em;
+}
+#imagenes{
+    text-align:center;
+    cursor: pointer;
+}
+h2{
+    color:rgb(167, 29, 98) ;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+}
+section h3{
+    color: rgb(5, 5, 27);
+    border-bottom:  1px solid rgb(45, 121, 45);
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table tbody td{
+    border-bottom: 5px solid blue;
+    border-right: 5px dotted rgb(170, 69, 69);
+    margin: 10px 5px;
+}
+table tbody th{
+    border-right: 6px solid blue;
+    padding: 10px 1em;
+}
+table thead{
+    border-bottom: 1px solid rgb(168, 36, 36);
+}
+table caption{
+    text-align:center;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: rgb(88, 31, 60);
+}
+
