@@ -1,0 +1,5 @@
+https://manage.exchangeratesapi.io/dashboard
+
+Clave Masty1981
+
+http://api.exchangeratesapi.io/v1/latest?access_key=0d86cb1f834f6e8ad692259802feb8f0
