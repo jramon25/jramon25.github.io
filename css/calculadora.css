@@ -1,5 +1,5 @@
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 2em 10% 2em 40px;
     padding: 1em;
     background-color:rgba(228, 227, 243, 0.952);
@@ -15,7 +15,7 @@ body{
  /*  box-shadow:rgb(224, 218, 236);
   border-radius: 10px;
   padding: 0.025em 0.1em; */
-  font-size: 22px;
+  font-size: 20px;
 }
   
   .moneda {
@@ -44,7 +44,7 @@ body{
   }
 
   .referencia {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 10px;
     color: rgb(6, 6, 36);
 

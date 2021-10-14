@@ -1,35 +1,25 @@
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 2em 10% 2em 40px;
     padding: 1em;
     background-color:rgba(228, 227, 243, 0.952);
     border: 1px dotted rgb(128, 128, 128);
 }
-#titulo{
+/*#titulo{
     text-align: center;
     background: rgb(6, 6, 36);
     color:rgb(249, 250, 252);
     font-size: 22px;
-  }
-/*
-header {
-    border-bottom: 1px solid black;
-}
+  }*/
 
-main{
-    margin: 1em 2%;
-}
+  #titulo{
+    text-align: center;
+    /* background: rgb(241, 241, 245); */
+    color:rgb(7, 14, 29);
+    font-size: 22px;
+  }  
 
-ul {
-    list-style: none;
-    padding: 0;
-}
 
-ul > li {
-    border-bottom: 1px dotted gray;
-}*/
-
- 
 header {
     border-bottom: 1px solid black;
 }
@@ -43,9 +33,7 @@ ul {
     padding: 0;
 }
  
-/* ul > li {
-    border-bottom: 1px dotted gray;
-} */
+
 
 ul > li > a {
     text-decoration: none;
@@ -57,6 +45,7 @@ ul > li > a {
   
   ul > li > a > p:last-child {
     font-weight: bold;
+    font-family:cursive;
     font-size: xx-large;
     color: rgb(166, 174, 245);
     text-shadow: 2px 2px 2px rgb(39, 37, 216);
@@ -71,6 +60,7 @@ ul > li > a {
 
   ul > li {
     border-bottom: 1px var(--border-type) var(--main-color);
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* padding: 1em 0; */
   }
 
@@ -88,7 +78,7 @@ input:focus:invalid {
 
 /* Pseudo-elementos */
 input::placeholder {
-    font-style: italic;
+    font-style: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
     color: rgb(18, 7, 43);
 }
 
@@ -98,22 +88,14 @@ input::placeholder {
 
   a > p:first-child::first-letter {  
     font-size: 2em;
-    font-family:'Parchment' , sans-serif;
+    font-family:cursive;
   }
 
   input:invalid + span[message]::after {
     content: attr(message);
   }
 
-  /*ul {
-    counter-reset: line;
-  }
-  
-  ul > li::before {  
-    counter-increment: line;
-    content: counter(line) ". ";
-  }*/
-  
+
   
   
   
